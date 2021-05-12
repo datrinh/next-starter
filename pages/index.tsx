@@ -13,7 +13,7 @@ const IndexPage: NextPage<Props> = ({ launch }) => {
   return (
     <main>
       {' '}
-      <h1>
+      <h1 className="text-2xl">
         Next SpaceX Launch:
         {' '}
         {launch.mission}
